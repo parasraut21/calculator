@@ -1,9 +1,3 @@
-.square {
-    height: 700px;
-    min-width: 500px;
-    background-color: #D3D3D3;
-    border-radius: 5px;
-  }
 
   .button {
     height: 50px;
@@ -22,9 +16,13 @@
   }
 
   .displayVal {
-    font-size: 28pt;
+    font-size: 21pt;
     font-weight: 1000;
     margin-bottom: 10px;
+    word-wrap: break-word;
+    overflow:hidden;
+    display: flex;
+    justify-content: right;
   }
 
   .calcVal {
@@ -36,4 +34,29 @@
 
   .hidden {
     visibility: hidden;
+  }
+
+  .toastNotification {
+    display: flex;
+    background-color: aquamarine;
+    border-radius: 5px;
+    color: black;
+    justify-content: center;
+    animation: fadeInOut 4s linear 1 forwards;
+    font-weight: 600;
+  }
+
+  .toastFadeOut {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 2s linear 2000ms, opacity 300ms;
+  }
+  .toastFadeIn {
+    visibility: visible;
+    opacity: 1;
+    transition: visibility 2s linear 400ms, opacity 300ms;
+  }
+
+  .sqrt {
+    padding-left: 15px;
   }

@@ -1,0 +1,392 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`should render correctly 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="App"
+      >
+        <div>
+          <div
+            class="hidden"
+          >
+            Copied!
+          </div>
+          <div
+            class="calcVal hidden"
+            data-testid="secondaryDisplayVal"
+          >
+            0
+          </div>
+          <div
+            class="displayVal"
+            data-testid="mainDisplayVal"
+          >
+            0
+          </div>
+          <div>
+            <div>
+              <button
+                class="button"
+              >
+                𝑥²
+              </button>
+              <button
+                class="button sqrt"
+              >
+                ²√𝑥
+              </button>
+              <button
+                class="button"
+                id="Escape"
+              >
+                C
+              </button>
+              <button
+                class="button delete"
+                id="Backspace"
+              >
+                ␡
+              </button>
+            </div>
+            <div>
+              <button
+                class="button"
+                id="7"
+              >
+                7
+              </button>
+              <button
+                class="button"
+                id="8"
+              >
+                8
+              </button>
+              <button
+                class="button"
+                id="9"
+              >
+                9
+              </button>
+              <button
+                class="button"
+                id="/"
+              >
+                ÷
+              </button>
+            </div>
+            <div>
+              <button
+                class="button"
+                id="4"
+              >
+                4
+              </button>
+              <button
+                class="button"
+                id="5"
+              >
+                5
+              </button>
+              <button
+                class="button"
+                id="6"
+              >
+                6
+              </button>
+              <button
+                class="button"
+                id="*"
+              >
+                x
+              </button>
+            </div>
+            <div>
+              <button
+                class="button"
+                id="1"
+              >
+                1
+              </button>
+              <button
+                class="button"
+                id="2"
+              >
+                2
+              </button>
+              <button
+                class="button"
+                id="3"
+              >
+                3
+              </button>
+              <button
+                class="button"
+                id="-"
+              >
+                -
+              </button>
+            </div>
+            <div>
+              <button
+                class="button"
+                id="."
+              >
+                .
+              </button>
+              <button
+                class="button"
+                id="0"
+              >
+                0
+              </button>
+              <button
+                class="button"
+                id="+"
+              >
+                +
+              </button>
+              <button
+                class="button equals"
+                id="Enter"
+              >
+                =
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="provider"
+        >
+          <span>
+            powered by 
+          </span>
+          <img
+            class="logo"
+            src="/src/assets/logo-grey-yellow.png"
+          />
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="App"
+    >
+      <div>
+        <div
+          class="hidden"
+        >
+          Copied!
+        </div>
+        <div
+          class="calcVal hidden"
+          data-testid="secondaryDisplayVal"
+        >
+          0
+        </div>
+        <div
+          class="displayVal"
+          data-testid="mainDisplayVal"
+        >
+          0
+        </div>
+        <div>
+          <div>
+            <button
+              class="button"
+            >
+              𝑥²
+            </button>
+            <button
+              class="button sqrt"
+            >
+              ²√𝑥
+            </button>
+            <button
+              class="button"
+              id="Escape"
+            >
+              C
+            </button>
+            <button
+              class="button delete"
+              id="Backspace"
+            >
+              ␡
+            </button>
+          </div>
+          <div>
+            <button
+              class="button"
+              id="7"
+            >
+              7
+            </button>
+            <button
+              class="button"
+              id="8"
+            >
+              8
+            </button>
+            <button
+              class="button"
+              id="9"
+            >
+              9
+            </button>
+            <button
+              class="button"
+              id="/"
+            >
+              ÷
+            </button>
+          </div>
+          <div>
+            <button
+              class="button"
+              id="4"
+            >
+              4
+            </button>
+            <button
+              class="button"
+              id="5"
+            >
+              5
+            </button>
+            <button
+              class="button"
+              id="6"
+            >
+              6
+            </button>
+            <button
+              class="button"
+              id="*"
+            >
+              x
+            </button>
+          </div>
+          <div>
+            <button
+              class="button"
+              id="1"
+            >
+              1
+            </button>
+            <button
+              class="button"
+              id="2"
+            >
+              2
+            </button>
+            <button
+              class="button"
+              id="3"
+            >
+              3
+            </button>
+            <button
+              class="button"
+              id="-"
+            >
+              -
+            </button>
+          </div>
+          <div>
+            <button
+              class="button"
+              id="."
+            >
+              .
+            </button>
+            <button
+              class="button"
+              id="0"
+            >
+              0
+            </button>
+            <button
+              class="button"
+              id="+"
+            >
+              +
+            </button>
+            <button
+              class="button equals"
+              id="Enter"
+            >
+              =
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="provider"
+      >
+        <span>
+          powered by 
+        </span>
+        <img
+          class="logo"
+          src="/src/assets/logo-grey-yellow.png"
+        />
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

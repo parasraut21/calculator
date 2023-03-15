@@ -1,6 +1,6 @@
 import './App.css'
-import Calculator from './components/calculator/Keypad'
 import CBFLogo from './assets/logo-grey-yellow.png'
+import Calculator from './components/calculator/Calculator'
 
 function App() {
   return (
@@ -17,10 +17,11 @@ function App() {
 
 export default App
 /*to do :
-fix sqr and sqrt
+
 testing
-make so text cant go past window size 
-fix naming
+history
+make sqrt more left
+make it so it shows answer
 make more modular
 clear things up
 
