@@ -53,9 +53,9 @@ function Keypad(props: any) {
                 <button id='-' className='button' onClick={() => buttonClickFn("-")}>-</button>
             </div>
             <div>
-                <button id='.' className='button' onClick={() => buttonClickFn(".")}>.</button>
-                <button id='0' className='button' onClick={() => buttonClickFn("0")}>0</button>
-                <button id='+' className='button' onClick={() => buttonClickFn("+")}>+</button>
+                <button id='.' className='button button-bottom' onClick={() => buttonClickFn(".")}>.</button>
+                <button id='0' className='button button-bottom' onClick={() => buttonClickFn("0")}>0</button>
+                <button id='+' className='button button-bottom' onClick={() => buttonClickFn("+")}>+</button>
                 <button id='Enter' className='button equals' onClick={() => buttonClickFn("=")}>=</button>
             </div>
         </div>

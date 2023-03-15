@@ -131,19 +131,19 @@ exports[`should render correctly 1`] = `
             </div>
             <div>
               <button
-                class="button"
+                class="button button-bottom"
                 id="."
               >
                 .
               </button>
               <button
-                class="button"
+                class="button button-bottom"
                 id="0"
               >
                 0
               </button>
               <button
-                class="button"
+                class="button button-bottom"
                 id="+"
               >
                 +
@@ -298,19 +298,19 @@ exports[`should render correctly 1`] = `
           </div>
           <div>
             <button
-              class="button"
+              class="button button-bottom"
               id="."
             >
               .
             </button>
             <button
-              class="button"
+              class="button button-bottom"
               id="0"
             >
               0
             </button>
             <button
-              class="button"
+              class="button button-bottom"
               id="+"
             >
               +

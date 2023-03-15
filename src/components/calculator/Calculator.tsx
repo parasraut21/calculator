@@ -38,10 +38,6 @@ function Calculator() {
             }
             return
         }
-
-        // if (!mainDisplayVal) {
-        //     return
-        // }
         
         // sqr and sqrt operators
         if (['**2', '**0.5'].includes(operator)) {
@@ -120,6 +116,10 @@ function Calculator() {
                 setMainDisplayVal(val)
             }
             else {
+                // stops equals being calculated with no values
+                if (!mainDisplayVal && !secondaryDisplayVal) {
+                    return
+                }
                 if (secondaryDisplayVal.slice(-1) !== '=') {
                     setSecondaryDisplayVal(secondaryDisplayVal + mainDisplayVal + '=')
                     setMainDisplayVal(val)
@@ -137,7 +137,6 @@ function Calculator() {
 
     // handles all clicks to keypad
     const buttonClickFn = (val: string) => {
-        console.log(val)
         if (operators.includes(val)) {
             operatorHandler(val)
             return
@@ -154,7 +153,6 @@ function Calculator() {
                 if (match && match.length > 0 && val === '.') {
                     return
                 }
-                console.log(mainDisplayVal)
                 setMainDisplayVal(mainDisplayVal + val)
 
             } else {
@@ -165,6 +163,9 @@ function Calculator() {
 
                 if (val == '.') {
                     setMainDisplayVal('0.')
+                } else if (val == '0') {
+                    // no leading 0's
+                    return
                 } else {
                     setMainDisplayVal(val)
                 }

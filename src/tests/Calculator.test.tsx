@@ -1,4 +1,4 @@
-import {describe, test, expect, beforeAll, afterEach, beforeEach, it} from 'vitest';
+import {describe, expect, afterEach, beforeEach, it} from 'vitest';
 import {render, screen, fireEvent} from '@testing-library/react';
 
 import Calculator from '../components/calculator/Calculator';

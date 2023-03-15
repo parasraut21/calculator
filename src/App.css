@@ -5,7 +5,7 @@
   text-align: center;
   transform: scale(1.5);
   overflow: hidden;
-  /* max-height: 0px; */
+
 }
 
 .logo {
@@ -26,7 +26,8 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin-top: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   font-weight: 600;
 }
 

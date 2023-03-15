@@ -15,5 +15,4 @@ export const calculateVal = (v1: string, v2:string, operator: string) => {
     } else {
         return valToReturn.toString()
     }
-    
 }

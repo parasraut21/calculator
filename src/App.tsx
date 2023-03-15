@@ -16,13 +16,3 @@ function App() {
 }
 
 export default App
-/*to do :
-
-testing
-history
-make sqrt more left
-make it so it shows answer
-make more modular
-clear things up
-
-*/
