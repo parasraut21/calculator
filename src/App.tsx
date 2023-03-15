@@ -21,8 +21,8 @@ fix sqr and sqrt
 testing
 floating calcval
 make so text cant go past window size 
-
-
-
+fix naming
+make more modular
+clear things up
 
 */

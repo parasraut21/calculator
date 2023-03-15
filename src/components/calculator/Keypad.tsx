@@ -3,7 +3,7 @@ import './calculator.css'
 
 function Calculator() {
     const [a, setA]: [string, Function] = useState('0')
-    const [calcVal, setCalcVal]: [string, Function] = useState('')
+    const [calcVal, setCalcVal]: [string, Function] = useState('0')
     const [operatorUsed, setOperatorUsed]: [boolean, Function] = useState(false)
     const [justCalulated, setJustCalculated]: [boolean, Function] = useState(false)
 
@@ -48,7 +48,7 @@ function Calculator() {
             setOperatorUsed(false)
             console.log('set operator in clear')
             setA('0')
-            setCalcVal('')
+            setCalcVal('0')
             return
         }
         if (!operatorUsed) {
@@ -90,9 +90,28 @@ function Calculator() {
         }
     }
 
+    let calcRender = (calcVal: string) => {
+        {if (calcVal != '0') {
+            console.log('returning')
+            return (
+                
+                <div className='calcVal'>{calcVal}</div>
+
+            )
+        }
+         else {
+            return (
+                <div className='calcVal hidden'>{calcVal}</div>
+            )
+         }
+    }
+
+    }
+
     return (
         <div>
-            <div className='calcVal'>{calcVal}</div>
+            
+            {calcRender(calcVal)}
             <div className='displayVal'>{a}</div>
             <div>
                 <button className='button' onClick={() => buttonClickFn("**2")}>𝑥²</button>

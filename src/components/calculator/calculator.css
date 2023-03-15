@@ -29,8 +29,11 @@
 
   .calcVal {
     display: flex;
-    position: absolute;
     justify-content: right;
     font-size: 14pt;
     font-weight: 700;
+  }
+
+  .hidden {
+    visibility: hidden;
   }
