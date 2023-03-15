@@ -1,0 +1,36 @@
+.square {
+    height: 700px;
+    min-width: 500px;
+    background-color: #D3D3D3;
+    border-radius: 5px;
+  }
+
+  .button {
+    height: 50px;
+    width: 55px;
+    color: black;
+    background-color: antiquewhite;
+    margin: 1px;
+  }
+
+  .equals {
+    background-color: aquamarine;
+  }
+
+  .delete {
+    background-color: red;
+  }
+
+  .displayVal {
+    font-size: 28pt;
+    font-weight: 1000;
+    margin-bottom: 10px;
+  }
+
+  .calcVal {
+    display: flex;
+    position: absolute;
+    justify-content: right;
+    font-size: 14pt;
+    font-weight: 700;
+  }

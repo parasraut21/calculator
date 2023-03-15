@@ -6,8 +6,8 @@
 }
 
 .logo {
-  height: 6em;
-  padding: 1.5em;
+  height: 2em;
+  padding: 0em;
   will-change: filter;
   transition: filter 300ms;
 }
@@ -37,6 +37,10 @@
   padding: 2em;
 }
 
-.read-the-docs {
-  color: #888;
+.provider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column
 }
+
