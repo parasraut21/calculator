@@ -3,16 +3,12 @@ import {render, screen, fireEvent} from '@testing-library/react';
 
 import Calculator from '../components/calculator/Calculator';
 
-
 describe("Keyboard test", () => {
     let [key1, key2, key3, key4, key5, key6, key7, key8, 
         key9, key0, keyTimes, keyDivide, keyDelete, keyClear,
         keyAdd, keySubtract, keySqr, keySqrt, keyEq, keyDot,
         displayVal, secondaryDisplayVal
         ] = [] as HTMLElement[];
-    
-    let testNumber423: Function
-    let testNumber12: Function
 
     beforeEach(()=> {
         render(<Calculator/>);
