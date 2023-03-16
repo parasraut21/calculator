@@ -4,8 +4,9 @@ A simple calculator made with React! Some cool features include keyboard input a
 my <a href=https://ahmadk98.github.io/CalculatorApp/>Github page</a> (Also works well on mobiles)
 
 <p align="center">
-  <img src=https://user-images.githubusercontent.com/52612156/225475192-17253426-96e3-41e1-8001-693426223690.png height=400px>
+  <img src=https://user-images.githubusercontent.com/52612156/225478501-e07935ce-31b2-40fe-897c-411c8b7e32d2.png height=400px>
 </p>
+
 
 ### Instructions to get started
 
