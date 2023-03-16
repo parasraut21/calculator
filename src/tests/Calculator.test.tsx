@@ -252,4 +252,3 @@ describe("Keyboard test", () => {
         expect(displayVal.innerHTML).toEqual('0.23')
     })
 })
-
