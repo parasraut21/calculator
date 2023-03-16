@@ -67,10 +67,14 @@ function Calculator() {
         setJustCalculated(true)
     }
 
-    const powerHandler = (operator: string) => {     
+    const powerHandler = (operator: string) => {
         if (['**2', '**0.5'].includes(operator)) {
             // if there is no intermediary value, send the result to secondary display
             if (secondaryDisplayVal === '' || justCalculated) {
+                if (mainDisplayVal === '') {
+                    return
+                }
+                
                 const val = calculateVal(mainDisplayVal, '', operator)
 
                 if (operator == '**2') {
@@ -88,7 +92,7 @@ function Calculator() {
                 if (operator == '**2') {
                     setSecondaryDisplayVal(intermediaryVal + operatorInFlight + mainDisplayVal + symbols[operator] + '=')
                 } else if (operator === '**0.5') {
-                    setSecondaryDisplayVal(intermediaryVal + operatorInFlight + symbols[operator] + mainDisplayVal +  '=')
+                    setSecondaryDisplayVal(intermediaryVal + operatorInFlight + symbols[operator] + mainDisplayVal + '=')
                 }
                 setMainDisplayVal(val)
             }
