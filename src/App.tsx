@@ -8,7 +8,7 @@ function App() {
       <Calculator />
       <div className='provider'>
         <span>powered by </span>
-        <img className='logo' src={CBFLogo}></img>
+    <h1>Paras Raut</h1>
       </div>
       
     </div>
